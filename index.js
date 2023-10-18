@@ -1,2 +1,2 @@
-alert("Hello from js")
+alert("Hello world")
 

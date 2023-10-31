@@ -1,0 +1,115 @@
+/* resetting css */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  font-size: 10px;
+}
+
+html{
+box-sizing: border-box;
+}
+
+
+/* NavBar css */
+
+#nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 95rem;
+  margin: auto ;
+  padding: 2rem;
+}
+
+/* Logo */
+.logo-container{
+  max-width: 25rem;
+  max-height: 3rem;
+}
+
+
+
+.logo-container__logo{
+  width: 100%;
+  height: 100%;
+}
+
+/* Nav links */
+
+.nav-bar__links-container{
+  display: flex;
+  gap: 1.8rem;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #ababab;
+  padding: 0;
+  font-size: 1.6rem;
+}
+
+.nav-link:hover{
+  color: #00b39b;
+}
+
+
+.About{
+  color: #00b39b;
+}
+
+
+/* Hero Section */
+
+#hero{
+  max-width: 111rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+margin: 8.5rem auto;
+
+}
+
+.hero__header{
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  max-height: 11.5rem;
+}
+
+.hero__header__image{
+  width: 40px;
+  height: 40px;
+}
+
+.hero__header > h1{
+font-size: 3.3rem;
+color: #00b39b;
+font-weight: 100;
+
+}
+
+
+.hero__para{
+ display: flex;
+ gap: 4rem;
+ align-items: center;
+ justify-content: center;
+ max-width: 73.5rem;
+font-size: 16px;
+font-weight: 400;
+color: #747474;
+}
+
